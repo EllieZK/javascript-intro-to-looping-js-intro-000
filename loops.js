@@ -8,7 +8,7 @@ function forLoop(array){
 function whileLoop(n){}
 
 while(whileLoop(n < 2)){
-  console.log(--whileLoop)
+  console.log(--n)
   return 'done.'
 }
 
