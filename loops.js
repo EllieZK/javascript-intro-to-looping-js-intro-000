@@ -13,3 +13,11 @@ while(whileLoop(n < 2)){
 }
 
 function doWhileLoop(array){}
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+do {
+  console.log(maybeTrue)
+} while (maybeTrue(array.length > 0 && maybeTrue()));
