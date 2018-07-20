@@ -5,12 +5,13 @@ function forLoop(array){
   }
 }
 
-function whileLoop(n){}
-
-while(whileLoop(n < 2)){
-  console.log(--n)
-  return 'done.'
+function whileLoop(n){
+  while(whileLoop(n < 2)){
+    console.log(--n)
+    return 'done.'
+  }
 }
+
 
 function doWhileLoop(array){
   function maybeTrue() {
