@@ -12,12 +12,12 @@ while(whileLoop(n < 2)){
   return 'done.'
 }
 
-function doWhileLoop(array){}
+function doWhileLoop(array){
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
 
-function maybeTrue() {
-  return Math.random() >= 0.5
+  do {
+    console.log(maybeTrue)
+  } while (maybeTrue(array.length > 0 && maybeTrue()));
 }
-
-do {
-  console.log(maybeTrue)
-} while (maybeTrue(array.length > 0 && maybeTrue()));
