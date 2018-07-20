@@ -4,3 +4,11 @@ function forLoop(array){
   else if (return "I am ${i} strange loops.")
   }
 }
+
+function whileLoop(n){
+  
+}
+
+function doWhileLoop(array){
+  
+}
