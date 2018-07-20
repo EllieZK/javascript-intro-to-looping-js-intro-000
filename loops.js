@@ -12,6 +12,4 @@ while(whileLoop(n < 2)){
   return 'done.'
 }
 
-function doWhileLoop(array){
-
-}
+function doWhileLoop(array){}
