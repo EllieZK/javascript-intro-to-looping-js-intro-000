@@ -5,10 +5,13 @@ function forLoop(array){
   }
 }
 
-function whileLoop(n){
-  
+function whileLoop(n){}
+
+while(whileLoop(whileLoop < 2)){
+  console.log(--whileLoop)
+  return 'done.'
 }
 
 function doWhileLoop(array){
-  
+
 }
